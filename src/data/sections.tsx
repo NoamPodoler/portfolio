@@ -6,14 +6,14 @@ import Skills from "@/pages/Skills";
 import { CgBee, CgAttribution, CgToday, CgAwards } from "react-icons/cg";
 
 export const SECTION_PAGES = {
-  apps: { node: <Apps />, title: "Apps", logo: CgToday },
+  about: { node: <About />, title: "About", logo: CgAwards },
   skills: { node: <Skills />, title: "Skills", logo: CgBee },
+  apps: { node: <Apps />, title: "Apps", logo: CgToday },
   experience: {
     node: <Expereience />,
     title: "Experience",
     logo: CgAttribution,
   },
-  about: { node: <About />, title: "About", logo: CgAwards },
 };
 
 export const getSectionPage = (key: keyof typeof SECTION_PAGES) =>

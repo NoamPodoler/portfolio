@@ -1,7 +1,9 @@
 "use client";
-import React, { ReactNode } from "react";
+import React, { ReactNode, useRef } from "react";
 import Sidebar from "@/components/Sidebar";
-import { motion, useScroll } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
+import useWindowDimensions from "@/hooks/useWindowDimensions";
+import { SECTION_PAGES } from "@/data/sections";
 
 type Props = {
   children?: ReactNode;
@@ -9,18 +11,34 @@ type Props = {
 };
 
 export default function Main({ children, current = "" }: Props) {
-  const { scrollYProgress } = useScroll();
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const { scrollY } = useScroll({ container: scrollRef });
+
+  const { height, width } = useWindowDimensions();
+  const bottomScrollIndicator = useTransform(
+    scrollY,
+    [0, (Object.entries(SECTION_PAGES).length - 1) * height],
+    [100, width]
+  );
+  const handleScrollTo = (index: number) =>
+    scrollRef.current?.scrollTo({ top: index * height, behavior: "smooth" });
 
   return (
     <div className="flex flex-col flex-1 bg-primary-light">
-      {/* Scroll Bar Indicator */}
       <motion.div
-        className="w-full h-2 bg-red-300"
-        // style={{ width: scrollYProgress }}
+        className="absolute left-0 bottom-0 w-full h-2 bg-primary-green"
+        style={{ width: bottomScrollIndicator }}
       />
       <div className="flex flex-1">
-        <Sidebar current={current} />
-        <div className="h-screen w-full overflow-scroll bg-white">
+        <Sidebar
+          current={current}
+          handleScrollTo={handleScrollTo}
+          scrollY={scrollY}
+        />
+        <div
+          className="h-screen w-full overflow-scroll bg-white"
+          ref={scrollRef}
+        >
           {children}
         </div>
       </div>
