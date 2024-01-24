@@ -19,12 +19,12 @@ import {
 
 export const SKILLS = [
   {
-    title: "JavaScript",
-    logo: JavaScript,
-  },
-  {
     title: "TypeScript",
     logo: TypeScript,
+  },
+  {
+    title: "JavaScript",
+    logo: JavaScript,
   },
   {
     title: "Python",

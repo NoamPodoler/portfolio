@@ -33,9 +33,10 @@ export default function Sidebar({
         className="flex flex-col items-start"
       >
         <h1>Noam Podoler</h1>
-        <h2 className="opacity-50 text-left">
-          Full Stack developer & Computer Science enthusaist
-        </h2>
+        <div className="">
+          <h2 className="opacity-50 text-left">Tel Aviv IL</h2>
+          <h2 className="opacity-50 text-left">podo0noam@gmail.com</h2>
+        </div>
       </button>
       {/* Link */}
       <div className="flex flex-1 items-start">

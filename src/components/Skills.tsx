@@ -15,7 +15,7 @@ export default function Skills({}: Props) {
           <Image
             src={item.logo}
             alt={item.title}
-            className="h-14 w-auto rounded-full"
+            className="h-10 w-auto rounded-full"
           />
           <h2>{item.title}</h2>
         </div>
