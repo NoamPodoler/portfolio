@@ -36,7 +36,7 @@ export default function Main({ children, current = "" }: Props) {
           scrollY={scrollY}
         />
         <div
-          className="h-screen w-full overflow-scroll bg-white"
+          className="h-screen w-full overflow-scroll bg-stone-50"
           ref={scrollRef}
         >
           {children}

@@ -25,7 +25,7 @@ export default function Expereience({}: Props) {
               <Image
                 src={item.logo}
                 alt={item.company}
-                className="h-32 w-32 border-3 border-stone-200 shadow-lg"
+                className="h-32 w-32 border-3 border-stone-100 border-5 shadow-lg rounded-full"
               />
               <div className="max-w-[800px]">
                 <h2>
