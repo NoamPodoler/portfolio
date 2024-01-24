@@ -6,3 +6,5 @@ export { default as Play } from "./play.png";
 export { default as MSApps } from "./msapps.png";
 export { default as TestCraft } from "./testcraft.png";
 export { default as Navy } from "./navy.png";
+export { default as Givol } from "./givol.png";
+export { default as LiveRoom } from "./liveroom.png";
