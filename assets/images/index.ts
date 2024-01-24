@@ -21,3 +21,4 @@ export { default as ReactLogo } from "./react.png";
 export { default as ReduxLogo } from "./redux.png";
 export { default as SQL } from "./sql.png";
 export { default as TypeScript } from "./typescript.png";
+export { default as Tailwind } from "./tailwind.png";

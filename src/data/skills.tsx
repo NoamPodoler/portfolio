@@ -13,6 +13,7 @@ import {
   ReactQueryLogo,
   ReduxLogo,
   SQL,
+  Tailwind,
   TypeScript,
 } from "../../assets/images";
 
@@ -72,5 +73,9 @@ export const SKILLS = [
   {
     title: "React Query",
     logo: ReactQueryLogo,
+  },
+  {
+    title: "Tailwind CSS",
+    logo: Tailwind,
   },
 ];

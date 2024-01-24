@@ -2,12 +2,12 @@ import About from "@/pages/About";
 import Apps from "@/pages/Apps";
 import Expereience from "@/pages/Experience";
 import NotFound from "@/pages/NotFound";
-import Skills from "@/pages/Skills";
+import Skills from "@/components/Skills";
 import { CgBee, CgAttribution, CgToday, CgAwards } from "react-icons/cg";
 
 export const SECTION_PAGES = {
   about: { node: <About />, title: "About", logo: CgAwards },
-  skills: { node: <Skills />, title: "Skills", logo: CgBee },
+  // skills: { node: <Skills />, title: "Skills", logo: CgBee },
   apps: { node: <Apps />, title: "Apps & Projects", logo: CgToday },
   experience: {
     node: <Expereience />,
