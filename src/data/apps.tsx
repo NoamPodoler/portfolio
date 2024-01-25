@@ -6,7 +6,7 @@ export const APPS = [
     logo: Givol,
     link: "https://play.google.com/store/apps/details?id=com.givolvolunteer&hl=en&gl=US",
     description:
-      "'Givol' is an innovative application that facilitates seamless connections between passionate volunteers and community centers in need. Serving as a user-friendly bridge, the platform effortlessly matches individuals eager to make a difference with local organizations seeking dedicated support.This empowering application enables users to explore a diverse range of volunteering opportunities, spanning tutoring, mentoring, event coordination, and environmental initiatives. With an intuitive interface, 'Givol' allows volunteers to filter opportunities based on their interests, skills, and availability, ensuring a personalized and meaningful experience.",
+      "'Givol' is a user-friendly application connecting volunteers with community centers. It offers diverse opportunities like tutoring, mentoring, event coordination, and environmental initiatives. The platform allows personalized experiences through intuitive filtering based on interests, skills, and availability.",
     shortDescription:
       "An innovative application connecting volunteers with community centers.",
     technologies: [

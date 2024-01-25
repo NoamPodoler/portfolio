@@ -69,7 +69,7 @@ const RenderItem = ({
             <h3 className="flex 2xl:hidden opacity-50 mb-5 mr-10 text-left">
               {item.shortDescription}
             </h3>
-            <div className="hidden sm:flex w-full gap-2 items-center justify-center mt-5">
+            <div className="hidden sm:flex w-full gap-2 items-center justify-center">
               {item.technologies.map((tech) => (
                 <div
                   key={tech}
