@@ -11,7 +11,7 @@ type Props = {};
 export default function Apps({}: Props) {
   return (
     <div className="flex flex-1 h-full justify-center items-center">
-      <div className="max-w-[1200px]">
+      <div className="max-w-[1300px]">
         <h1 className="block lg:hidden mb-10 text-center">Apps & Projects</h1>
         <div className="flex flex-col">
           {APPS.map((item) => (
