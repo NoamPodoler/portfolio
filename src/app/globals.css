@@ -40,19 +40,23 @@ body {
 @layer base {
   h1 {
     @apply text-[40px];
-    @apply font-primary
+    @apply font-primary;
+    @apply text-black;
   }
   h2 {
     @apply text-xl;
-    @apply font-primary
+    @apply font-primary;
+    @apply text-black;
   }
   h3 {
     @apply text-sm;
-    @apply font-primary
+    @apply font-primary;
+    @apply text-black;
   } 
   a {
     @apply text-blue-600 underline;
-    @apply font-primary
+    @apply font-primary;
+    @apply text-black;
   }
 }
 
