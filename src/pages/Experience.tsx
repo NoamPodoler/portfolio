@@ -6,8 +6,8 @@ type Props = {};
 
 export default function Expereience({}: Props) {
   return (
-    <div className="flex flex-col flex-1 justify-center items-center h-full mx-20">
-      <div className="flex flex-col max-w-[1200px]">
+    <div className="w-[100vw] lg:w-full flex flex-col flex-1 justify-center items-center h-full">
+      <div className="w-[100vw] lg:w-fullflex flex-col max-w-[1200px]">
         <h1 className="block lg:hidden mb-10 text-center">Experience</h1>
         <div className="flex gap-10 min-w-[400px] max-h-[100vh]">
           <div className="hidden lg:flex flex-col justify-around h-full">
