@@ -27,13 +27,13 @@ export default function Sidebar({
   );
 
   return (
-    <div className="flex flex-col h-screen p-10 gap-5">
+    <div className="hidden lg:flex flex-col h-screen p-10 gap-5">
       <button
         onClick={() => router.push("/")}
         className="flex flex-col items-start"
       >
         <h1>Noam Podoler</h1>
-        <div className="">
+        <div>
           <h2 className="opacity-50 text-left">Tel Aviv IL</h2>
           <h2 className="opacity-50 text-left">podo0noam@gmail.com</h2>
         </div>

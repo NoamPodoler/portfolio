@@ -4,6 +4,7 @@ import { HelloLottie } from "../../assets/lottie";
 import Skills from "../components/Skills";
 import Image from "next/image";
 import { ProfilePicture } from "../../assets/images";
+import ExternalLinks from "@/components/ExternalLinks";
 
 type Props = {};
 
@@ -17,8 +18,13 @@ export default function About({}: Props) {
           <h2 className="text-center">
             Full Stack developer & Computer Science enthusaist
           </h2>
-          <div className="max-w-[800px] mt-20">
+          <div className="max-w-[800px] mt-20 mx-20">
             <Skills />
+          </div>
+          <div className="flex lg:hidden flex-col items-center gap-2 mt-10">
+            <h2 className="opacity-50 text-left">Tel Aviv IL</h2>
+            <h2 className="opacity-50 text-left">podo0noam@gmail.com</h2>
+            <ExternalLinks />
           </div>
         </div>
       </div>
