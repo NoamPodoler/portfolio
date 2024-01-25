@@ -6,7 +6,7 @@ type Props = {};
 
 export default function Skills({}: Props) {
   return (
-    <div className="flex gap-2 py-8 flex-wrap items-center justify-center">
+    <div className="flex gap-2 flex-wrap items-center justify-center">
       {SKILLS.map((item) => (
         <div
           key={item.title}
