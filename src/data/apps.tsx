@@ -1,4 +1,4 @@
-import { Givol, LiveRoom } from "../../assets/images";
+import { Givol, LiveRoom } from "../assets/images";
 
 export const APPS = [
   {

@@ -15,7 +15,7 @@ import {
   SQL,
   Tailwind,
   TypeScript,
-} from "../../assets/images";
+} from "../assets/images";
 
 export const SKILLS = [
   {

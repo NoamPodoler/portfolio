@@ -3,7 +3,7 @@ import { APPS } from "@/data/apps";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React from "react";
-import { Github, Play } from "../../assets/images";
+import { Github, Play } from "../assets/images";
 import { PROJECTS } from "@/data/projects";
 
 type Props = {};
@@ -11,7 +11,7 @@ type Props = {};
 export default function Apps({}: Props) {
   return (
     <div className="flex flex-1 h-full justify-center items-center">
-      <div>
+      <div className="max-w-[1200px]">
         <h1 className="block lg:hidden mb-10 text-center">Apps & Projects</h1>
         <div className="flex flex-col">
           {APPS.map((item) => (

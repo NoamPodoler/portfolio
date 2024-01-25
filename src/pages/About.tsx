@@ -1,9 +1,9 @@
 import Lottie from "lottie-react";
 import React from "react";
-import { HelloLottie } from "../../assets/lottie";
+import { HelloLottie } from "../assets/lottie";
 import Skills from "../components/Skills";
 import Image from "next/image";
-import { ProfilePicture } from "../../assets/images";
+import { ProfilePicture } from "../assets/images";
 import ExternalLinks from "@/components/ExternalLinks";
 
 type Props = {};

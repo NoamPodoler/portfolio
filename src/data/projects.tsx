@@ -1,4 +1,4 @@
-import { Givol, Logo2048 } from "../../assets/images";
+import { Givol, Logo2048 } from "../assets/images";
 
 export const PROJECTS = [
   {

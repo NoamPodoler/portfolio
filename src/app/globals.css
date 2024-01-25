@@ -34,7 +34,7 @@ body {
 
 @font-face {
   font-family: Ploni;
-  src: url("../../assets/fonts/Ploni\ ML\ v2\ AAA\ Regular.otf");
+  src: url("../assets/fonts/Ploni\ ML\ v2\ AAA\ Regular.otf");
 }
 
 @layer base {

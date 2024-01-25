@@ -1,4 +1,4 @@
-import { Github, Leetcode, Linkedin, Play } from "../../assets/images";
+import { Github, Leetcode, Linkedin, Play } from "../assets/images";
 
 export const EXTERNAL_LINKS = [
   {

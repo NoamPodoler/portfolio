@@ -1,4 +1,4 @@
-import { MSApps, Navy, TestCraft } from "../../assets/images";
+import { MSApps, Navy, TestCraft } from "../assets/images";
 
 export const EXPERIENCE_DATA = [
   {
