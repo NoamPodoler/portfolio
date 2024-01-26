@@ -24,7 +24,12 @@ export default function Main({ children, current = "" }: Props) {
     scrollRef.current?.scrollTo({ top: index * height, behavior: "smooth" });
 
   return (
-    <div className="flex flex-col flex-1 bg-primary-light">
+    <motion.div
+      className="flex flex-col flex-1 bg-primary-light"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.4 }}
+    >
       <motion.div
         className="absolute left-0 bottom-0 w-full h-2 bg-primary-green"
         style={{ width: bottomScrollIndicator }}
@@ -42,6 +47,6 @@ export default function Main({ children, current = "" }: Props) {
           {children}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
